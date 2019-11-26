@@ -74,7 +74,7 @@
     color: #dc3545;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #dc3545;
+    color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
     color: #dc3545;
@@ -89,27 +89,46 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
+  /* background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("./img/bg-masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover; */
+}
+
+.inicio {
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("./img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
-.inicio {
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("./img/bg-masthead.jpg");
-}
-
 .x {
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("./img/model-x.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 .s {
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("./img/model-s.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 .md3 {
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("./img/model-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
+
+
 
 .masthead h1 {
   font-family: 'Tesla';
@@ -164,16 +183,16 @@
 }
 
 .btn-primary:hover {
-  background-color: #dc3545;
+  background-color: #4f837f;
 }
 
 .btn-primary:focus {
-  background-color: #dc3545;
+  background-color: #4f837f;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #dc3545 !important;
+  background-color: #467370 !important;
 }
 
 .about-section {
@@ -308,4 +327,20 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
+}
+
+.footerson {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+body {
+  background-color: #161616;
+}
+
+.carousel {
+  padding-bottom: 100px;
 }
